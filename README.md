@@ -11,13 +11,17 @@ Loan defaults pose a significant challenge for financial institutions by affecti
 ### ✅ Data Exploration & Visualization
 
 1.Distribution of loan amounts vs monthly income
+
 2.Effect of payment history on recovery status
+
 3.Impact of missed payments on recovery chances
+
 4.Relationship between income, loan size, and recovery outcomes
 
 ### ✅ Borrower Segmentation (K-Means Clustering)
 
 1.Groups borrowers based on financial profiles (income, loan size, tenure, EMI, defaults, etc.)
+
 2.Segments labeled as:
 * High Income, Low Default Risk
 * Moderate Income, Medium Risk
@@ -27,10 +31,13 @@ Loan defaults pose a significant challenge for financial institutions by affecti
 ### ✅ Risk Prediction (Random Forest Classifier)
 
 1.Flags borrowers as High Risk or Low Risk
+
 2.Generates risk scores (probability of default)
 
 ### ✅ Dynamic Recovery Strategies
 
 1.>75% Risk → Immediate legal notices & aggressive recovery
+
 2.50–75% Risk → Settlement offers & structured repayment plans
+
 3.<50% Risk → Automated reminders & monitoring
