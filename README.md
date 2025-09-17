@@ -169,11 +169,10 @@ So, this is how you can build a smart loan recovery system with Machine Learning
 * Map borrower risk scores to dynamic strategies
 * Merge predictions with borrower details
 
-## 📈 Example Output
+## 📌 Future Enhancements
 
-Sample output for borrower risk analysis:
-
-Borrower_ID	Monthly_Income	Loan_Amount	Segment_Name	Risk_Score	Predicted_High_Risk	Recovery_Strategy
-1024	25,000	150,000	High Loan, Higher Default Risk	0.82	1	Immediate legal notices & aggressive recovery
-1099	55,000	80,000	High Income, Low Default Risk	0.32	0	Automated reminders & monitoring
-1134	40,000	100,000	Moderate Income, Medium Risk	0.65	1	Settlement offers & repayment plans
+🔹 Integrate with real-time loan recovery dashboards
+🔹 Add NLP-based borrower communication analysis (emails, messages)
+🔹 Deploy as a Flask/Django web app for financial institutions
+🔹 Use Gradient Boosting/XGBoost for better prediction accuracy
+🔹 Implement explainable AI (SHAP/LIME) for transparency in risk scoring
