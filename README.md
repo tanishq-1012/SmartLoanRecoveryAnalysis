@@ -137,3 +137,11 @@ So, this is how you can build a smart loan recovery system with Machine Learning
 * Machine Learning Models
  *K-Means Clustering → Borrower Segmentation
  *Random Forest Classifier → High Risk Prediction
+
+## 📊 Visual Insights
+
+* Loan amount distribution vs income levels
+* Recovery status based on payment history
+* Missed payments vs likelihood of recovery
+* Borrower segmentation (clusters) based on income & loan profile
+* Risk heatmaps with recovery strategies
