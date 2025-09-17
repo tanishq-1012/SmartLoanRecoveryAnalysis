@@ -172,7 +172,17 @@ So, this is how you can build a smart loan recovery system with Machine Learning
 ## 📌 Future Enhancements
 
 🔹 Integrate with real-time loan recovery dashboards
+
 🔹 Add NLP-based borrower communication analysis (emails, messages)
+
 🔹 Deploy as a Flask/Django web app for financial institutions
+
 🔹 Use Gradient Boosting/XGBoost for better prediction accuracy
+
 🔹 Implement explainable AI (SHAP/LIME) for transparency in risk scoring
+
+## Summary
+
+So, by leveraging borrower profiles, payment behaviours, and clustering techniques, we can build a smart loan recovery system to identify high-risk borrowers early and assign targeted recovery strategies based on risk levels.
+
+
