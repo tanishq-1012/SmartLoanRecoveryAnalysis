@@ -68,5 +68,13 @@ To build a loan recovery system with Machine Learning, we will use a dataset con
 
 <img width="1161" height="269" alt="Screenshot 2025-09-17 at 2 12 06 PM" src="https://github.com/user-attachments/assets/5326c30c-44d7-4829-9826-d163c42223e6" />
 
+## Analyzing Data Distribution and Relationships
 
+Now, let’s move to analyzing this data in detail. I’ll first have a look at the distribution of the loan amount and its relationship with the monthly income:
+
+<img width="1161" height="522" alt="Screenshot 2025-09-17 at 2 12 27 PM" src="https://github.com/user-attachments/assets/17061755-3e49-4dba-988f-c7aad517d6d0" />
+
+The graph demonstrates a positive relationship between loan amounts and monthly income, indicating that individuals with higher income levels tend to secure larger loans. The density curve at the top shows the distribution of loan amounts, emphasizing that higher loan amounts are more frequent among higher income brackets.
+
+It highlights the proportionality between income and loan size, which shows an income-based approach in loan approvals or customer profiling.
 
