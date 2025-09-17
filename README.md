@@ -46,12 +46,12 @@ Loan defaults pose a significant challenge for financial institutions by affecti
 
 The project uses a loan dataset (loan recovery.csv) with features such as:
 
-Demographics: Age
+* Demographics: Age
 
-Financial Attributes: Monthly Income, Loan Amount, Loan Tenure, Interest Rate, Collateral Value
+* Financial Attributes: Monthly Income, Loan Amount, Loan Tenure, Interest Rate, Collateral Value
 
-Behavioral Indicators: Payment History, Missed Payments, Days Past Due
+* Behavioral Indicators: Payment History, Missed Payments, Days Past Due
 
-Loan Attributes: Outstanding Loan Amount, Monthly EMI
+* Loan Attributes: Outstanding Loan Amount, Monthly EMI
 
-Recovery Indicators: Recovery Status, Collection Attempts, Legal Action Taken
+* Recovery Indicators: Recovery Status, Collection Attempts, Legal Action Taken
