@@ -41,3 +41,17 @@ Loan defaults pose a significant challenge for financial institutions by affecti
 2.50–75% Risk → Settlement offers & structured repayment plans
 
 3.<50% Risk → Automated reminders & monitoring
+
+## 📂Smart Loan Recovery System: Dataset Overview
+
+The project uses a loan dataset (loan recovery.csv) with features such as:
+
+Demographics: Age
+
+Financial Attributes: Monthly Income, Loan Amount, Loan Tenure, Interest Rate, Collateral Value
+
+Behavioral Indicators: Payment History, Missed Payments, Days Past Due
+
+Loan Attributes: Outstanding Loan Amount, Monthly EMI
+
+Recovery Indicators: Recovery Status, Collection Attempts, Legal Action Taken
