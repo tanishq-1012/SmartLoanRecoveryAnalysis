@@ -128,3 +128,12 @@ and automated reminders for low-risk borrowers (<0.50).
 
 So, this is how you can build a smart loan recovery system with Machine Learning.
 
+## 🖥 Tech Stack
+
+* Languages & Libraries
+ * Python, Pandas, NumPy
+ * Plotly (Interactive Visualizations)
+ *Scikit-learn (ML Models)
+* Machine Learning Models
+ *K-Means Clustering → Borrower Segmentation
+ *Random Forest Classifier → High Risk Prediction
