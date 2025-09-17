@@ -106,3 +106,25 @@ Let’s visualize the segments to understand them in detail:
 <img width="1161" height="496" alt="Screenshot 2025-09-17 at 2 13 21 PM" src="https://github.com/user-attachments/assets/03f38a72-b330-4fbc-8a82-5879b88d6314" />
 
 Segment 1 borrowers take on moderate to high loan amounts, indicating financial stability. The Segment 0 clusters around lower income levels and moderate loan sizes, reflecting potential financial strain. Segment 2 borrowers distribute evenly across the graph, representing a balanced but cautious group. Meanwhile, Segment 3 borrowers concentrate in high-loan areas, especially within specific high-income ranges, highlighting their susceptibility to default despite higher incomes.
+
+## Building an Early Detection System for Loan Defaults based on the Risk Scores
+
+Now, we will use our segments to build a classification model to flag the borrowers with high default risk. Once the model finds the borrowers with a high default risk, we will assign a loan recovery strategy based on the level of the risk of the borrower.
+
+Here, we first labelled borrowers as high-risk based on their segment classification. Then, we selected key financial and behavioural features to train a Random Forest Classifier. After splitting the data into training and testing sets, we trained the model to predict the probability of a borrower defaulting. We then applied this model to the test data to generate risk scores and classify borrowers as high-risk or low-risk based on a probability threshold. Finally, we merged these predictions with borrower details to enable data-driven recovery strategies.
+
+Now, we will create a new column for the dynamic recovery strategy based on risk scores:
+
+<img width="1170" height="368" alt="Screenshot 2025-09-17 at 2 13 42 PM" src="https://github.com/user-attachments/assets/10c0611a-b774-453f-8e89-e17037478cb6" />
+
+Here, we defined a function that categorizes borrowers into three recovery approaches:
+
+1.immediate legal action for high-risk borrowers (risk score > 0.75),
+
+2.settlement offers and repayment plans for moderate-risk borrowers (0.50 – 0.75),
+and automated reminders for low-risk borrowers (<0.50).
+
+3.This function was applied to the test dataset to assign a personalized recovery strategy to each borrower to ensure cost-effective and targeted loan recovery efforts.
+
+So, this is how you can build a smart loan recovery system with Machine Learning.
+
