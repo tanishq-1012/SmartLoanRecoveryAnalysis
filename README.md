@@ -64,3 +64,9 @@ To build a loan recovery system with Machine Learning, we will use a dataset con
 * Collection Efforts: Collection methods used, number of recovery attempts, and legal actions taken.
 * Loan Recovery Status: Whether the loan was fully recovered, partially recovered, or remains outstanding.
 
+<img width="1161" height="630" alt="Screenshot 2025-09-17 at 2 11 38 PM" src="https://github.com/user-attachments/assets/6301ec36-93db-4e77-944a-083f025f2027" />
+
+<img width="1161" height="269" alt="Screenshot 2025-09-17 at 2 12 06 PM" src="https://github.com/user-attachments/assets/5326c30c-44d7-4829-9826-d163c42223e6" />
+
+
+
