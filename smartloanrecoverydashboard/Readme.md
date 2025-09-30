@@ -47,3 +47,11 @@ To run the dashboard, ensure you have the following installed:
 2. **Install Dependencies**:
 
    pip install -r requirements.txt
+
+   Create a requirements.txt with:
+
+   streamlit
+   pandas
+   plotly
+   scikit-learn
+   numpy
