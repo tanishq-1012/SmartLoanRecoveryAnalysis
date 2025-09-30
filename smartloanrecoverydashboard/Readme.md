@@ -10,13 +10,13 @@ The Smart Loan Recovery System is an AI-powered Streamlit dashboard designed for
 
 * **Data Exploration**: Visualize key metrics through interactive Plotly charts, including:
 
- * Loan Amount Distribution (histogram with violin plot)
+  * Loan Amount Distribution (histogram with violin plot)
 
- * Loan Amount vs. Monthly Income (scatter plot)
+  * Loan Amount vs. Monthly Income (scatter plot)
 
- * Payment History vs. Recovery Status (grouped histogram)
+  * Payment History vs. Recovery Status (grouped histogram)
 
- * Missed Payments Impact on Recovery (box plot)
+  * Missed Payments Impact on Recovery (box plot)
 
 * **Borrower Segmentation**: Uses K-Means clustering to categorize borrowers into segments (e.g., High Income, Low Default Risk).
 
@@ -26,6 +26,4 @@ The Smart Loan Recovery System is an AI-powered Streamlit dashboard designed for
 
 * **Multi-Page Interface**: Each visualization and section is displayed on a separate page for a clean user experience.
 
-
-
-Error Handling: Robust validation for uploaded datasets, with detailed error messages for missing columns or invalid data.
+* **Error Handling**: Robust validation for uploaded datasets, with detailed error messages for missing columns or invalid data.
