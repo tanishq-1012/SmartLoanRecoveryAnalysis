@@ -35,3 +35,9 @@ To run the dashboard, ensure you have the following installed:
  * Required Python packages (install via pip):
 
  pip install streamlit pandas plotly scikit-learn numpy
+
+## Installation
+
+1. **Clone the Repository** (if hosted on GitHub):
+   git clone <repository-url>
+   cd smart-loan-recovery-system
