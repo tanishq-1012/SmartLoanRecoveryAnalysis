@@ -27,3 +27,11 @@ The Smart Loan Recovery System is an AI-powered Streamlit dashboard designed for
 * **Multi-Page Interface**: Each visualization and section is displayed on a separate page for a clean user experience.
 
 * **Error Handling**: Robust validation for uploaded datasets, with detailed error messages for missing columns or invalid data.
+
+## Prerequisites
+
+To run the dashboard, ensure you have the following installed:
+ * Python 3.8 or higher
+ * Required Python packages (install via pip):
+
+ pip install streamlit pandas plotly scikit-learn numpy
