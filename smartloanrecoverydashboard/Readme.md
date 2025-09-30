@@ -43,3 +43,7 @@ To run the dashboard, ensure you have the following installed:
    git clone <repository-url>
 
    cd smart-loan-recovery-system
+
+2. **Install Dependencies**:
+
+   pip install -r requirements.txt
