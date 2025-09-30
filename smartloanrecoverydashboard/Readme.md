@@ -97,3 +97,39 @@ To run the dashboard, ensure you have the following installed:
 5. **Download Report**:
 
   * On the "Download Results" page, click the button to download a CSV with risk scores and recovery strategies.
+
+## Dataset Requirements
+
+The dashboard expects a loan_recovery.csv file with the following columns:
+
+  **Borrower_ID**: Unique identifier for each borrower (integer/string).
+
+  **Age**: Borrower's age (integer).
+
+  **Monthly_Income**: Monthly income in dollars (float).
+
+  **Loan_Amount**: Total loan amount in dollars (float).
+
+  **Loan_Tenure**: Loan duration in months (integer).
+
+  **Interest_Rate**: Loan interest rate in percentage (float).
+
+  **Collateral_Value**: Value of collateral in dollars (float).
+
+  **Outstanding_Loan_Amount**: Remaining loan balance (float).
+
+  **Monthly_EMI**: Monthly installment amount (float).
+
+  **Num_Missed_Payments**: Number of missed payments (integer).
+
+  **Days_Past_Due**: Days overdue on payments (integer).
+
+  **Payment_History**: Payment status ("On-time" or "Late").
+
+  **Recovery_Status**: Loan recovery status ("Recovered" or "Not Recovered").
+
+  **Collection_Method**: Method used for collection ("Email", "Phone", "In-Person").
+
+  **Collection_Attempts**: Number of collection attempts (integer).
+
+  **Legal_Action_Taken**: Legal action status ("Yes" or "No").
