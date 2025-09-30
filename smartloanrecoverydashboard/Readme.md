@@ -55,3 +55,45 @@ To run the dashboard, ensure you have the following installed:
    plotly,
    scikit-learn,
    numpy
+
+## Usage
+
+1. **Launch the Dashboard**:
+
+ * Run streamlit run app.py to start the Streamlit server.
+
+2. **Upload Dataset**:
+
+ * Navigate to the "Upload Dataset" page.
+ 
+ * Upload a loan_recovery.csv file or select the "Use Sample Dataset" checkbox to test with generated data.
+
+3. **Explore Visualizations**:
+
+ * Use the sidebar to navigate to different pages, each containing a specific visualization or analysis:
+
+   * **Data Preview**: View the raw dataset (first 50 rows).
+
+   * **Loan Amount Distribution**: Histogram showing loan amount spread.
+
+   * **Loan Amount vs. Monthly Income**: Scatter plot analyzing income vs. loan repayment.
+
+   * **Payment History vs. Recovery Status**: Histogram comparing payment consistency and recovery.
+
+   * **Missed Payments Impact on Recovery**: Box plot highlighting missed payments' effect.
+
+   * **Borrower Segmentation**: Scatter plot of K-Means clusters with segment details.
+
+   * **Risk Prediction**: Table of predicted risk scores and recovery strategies.
+
+   * **Download Results**: Export the analysis as a CSV file.
+
+4. **Interpret Results**:
+
+  * Each visualization includes a short summary explaining its purpose and insights.
+
+  * The Risk Prediction page provides actionable recovery strategies based on risk scores.
+
+5. **Download Report**:
+
+  * On the "Download Results" page, click the button to download a CSV with risk scores and recovery strategies.
