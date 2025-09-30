@@ -39,5 +39,6 @@ To run the dashboard, ensure you have the following installed:
 ## Installation
 
 1. **Clone the Repository** (if hosted on GitHub):
+
    git clone <repository-url>
    cd smart-loan-recovery-system
