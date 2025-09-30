@@ -133,3 +133,11 @@ The dashboard expects a loan_recovery.csv file with the following columns:
   **Collection_Attempts**: Number of collection attempts (integer).
 
   **Legal_Action_Taken**: Legal action status ("Yes" or "No").
+
+## Project Structure
+
+mart-loan-recovery-system/
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Python dependencies
+├── loan_recovery.csv   # (Optional) Your dataset
+└── README.md           # Project documentation
